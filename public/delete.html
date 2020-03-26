@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Projet 4 - Suppresion d'utilisateurs</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <h1>Formulaire de suppresion d'uilisateurs</h1>
+    <form action="/api/user/delete" method="POST">
+        <input type="text" name="userId" placeholder="ID de l'utilisateur à supprimer :" />
+        <button type="submit" >Supprimer l'utilisateur</button>
+    </form>
+</body>
+
+</html>
